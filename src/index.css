@@ -1,14 +1,6 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import 'clean-blog.min.css';
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+.masthead.index { background-image: url('/img/home-bg.jpg') }
+.masthead.about { background-image: url('/img/about-bg.jpg') }
+.masthead.contact { background-image: url('/img/contact-bg.jpg') }
+.masthead.post { background-image: url('/img/post-bg.jpg') }
